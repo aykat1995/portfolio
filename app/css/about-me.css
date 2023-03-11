@@ -1,0 +1,110 @@
+.aboutbox {
+  background-color: #eff3f7;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.aboutbox-title {
+  font-size: 27px;
+  line-height: 30px;
+  color: #3ba8c0;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 50px;
+}
+.aboutbox-title::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  background-color: #3ba8c0;
+  width: 118%;
+  left: -20px;
+  bottom: -25px;
+}
+.maininfo {
+  display: flex;
+}
+.maininfo-img {
+  width: 150px;
+  height: 150px;
+  margin-right: 25px;
+  margin-left: 20px;
+}
+.avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  overflow: hidden;
+  border: 5px solid #3ba8c0;
+}
+.maininfo-row {
+  max-width: 410px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.maininfo-left {
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #4a545d;
+  margin-right: 15px;
+  min-width: fit-content;
+}
+.maininfo-right {
+  font-size: 17px;
+  line-height: 1.2;
+  color: #37424d;
+}
+.maininfo-skills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.maininfo-skill {
+  margin-right: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 3px 5px;
+  background: linear-gradient(0deg, rgba(59,168,192,1) 0%, rgba(46,140,162,1) 35%);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.aboutbox-works {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.aboutbox-work-img {
+  display: block;
+  margin-right: 25px;
+}
+.aboutbox-work-texts {
+  display: flex;
+  flex-direction: column;
+}
+.aboutbox-work-name {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #4a545d;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.aboutbox-work-date {
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #4a545d;
+  margin-bottom: 10px;
+}

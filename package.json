@@ -1,0 +1,7 @@
+{
+  "name": "Aikat",
+  "devDependencies": {
+    "browser-sync": "^2.28.3",
+    "gulp": "^4.0.2"
+  }
+}
