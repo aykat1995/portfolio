@@ -15,6 +15,7 @@ body {
   background-color: #fbfcfd;
   font: normal 1em 'fira_sanslight';
   color: #4a545d;
+  position: relative;
 }
 .wrapper {
   min-height: 100%;
